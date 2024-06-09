@@ -1,0 +1,9 @@
+#nature {
+    height:100px;
+    width:100px;
+    background-image:url("animal.png");
+    background-size:cover;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}

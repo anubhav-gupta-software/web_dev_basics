@@ -1,0 +1,31 @@
+ul {
+    display:flex;
+    /* width:100vw; */
+    /* due to display flex, it behaves as a block level element */
+    background-color:pink;
+    justify-content: space-evenly;
+   
+    padding: 0; /* Remove default padding */
+
+
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    background-color:aqua;
+}
+
+li {
+    
+    list-style-type: none;
+
+}
+
+#outer {
+    display:flex;
+    justify-content: center;
+    border: 2px black solid;
+    height:300px;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+/* USE COOLORS FOR COLOR PALETTE ONLINE */
+
+h1 {
+    color:#EDBFC6;
+    background-color: #260C1A;
+    text-align:center;
+}
+
+p {
+    color:#EDBFC6;
+    background-color:#432E36;
+    text-align: center;
+}
+
+button {
+    color: #EDBFC6;
+    background-color: #5F4842;
+}
+
+body {
+    background-color: #AF8D86;
+}
+* {
+    background-color:blue;
+}
+/* id below */
+#click_button {
+    background-color:black;
+}
+
+.myClass {
+    background-color:blue;
+    text-align:right;
+    /* text align works with the parent tag, center, left, or right or parent tag, also can use start or end */
+}
+
+/* class*/
+
+/* THE MORE SPECIFIC, THE MORE IT WILL COME AFTER THAT */

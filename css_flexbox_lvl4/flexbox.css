@@ -1,0 +1,87 @@
+/* flexbox is flexible box layout -> one dimensional layout method for arranging items in rows or columns */
+/* it can be used with div, navbar or any container like span, section etc. 
+by doing display:flex;*/
+/* main axis and cross axis*/
+body {
+    text-align: center;
+}
+
+div {
+    height:100px;
+    width:50px;
+    display:inline-block;
+    border:2px solid black;
+}
+
+#container {
+    width: 800px;
+    height: 700px;
+    display:flex;
+    flex-direction: row;
+    
+    /* row, column, row-reverse, column-reverse */
+    /* property of flexbox that all the items are inside it till the content allows for it */
+    /* when row, main axis horizontal(left to right), and cross axis vertical */
+    flex-wrap:nowrap;
+    /* nowrap, wrap-reverse,wrap, when wrap or reverse, may overflow */
+
+
+    justify-content:space-evenly;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content:space-around;
+    /* middle space is double of edge spaces */
+    justify-content:space-between;
+    /* no space in the edges */
+    /* alignment along the main axis flex-start/flex-end/center/space-evenly */
+
+
+    /* align items along the cross axis*/
+    align-items: center;
+    align-items: baseline;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+    align-items: center;
+
+
+
+    /*center, baseline, flex-start, flex-end*/
+    /* space between is gone */
+    /* it is for alignment f space between and around the content along cross-axis */
+    align-content: flex-end;
+}
+
+
+
+/* now flex item properties,
+1. align-self: alignment of individual along the cross axis
+2. flex-grow: 
+3. flex-shrink */
+#box1 {
+    background-color:aqua;
+    align-self:center;
+    flex-shrink:2;
+    flex-grow:  2;;
+    /* when space, shrinks with a factor of 1. */
+}
+
+#box2 {
+    background-color:pink;
+    height:250px;
+    flex-grow:1;
+}
+
+#box3 {
+    background-color:burlywood;
+    height:75px;
+}
+#box4 {
+    background-color:lightcoral;
+   
+}
+#box5 {
+    background-color: lightskyblue;
+   
+}

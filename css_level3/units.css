@@ -1,0 +1,12 @@
+#apple {
+    width:50%;
+    /* with respect to the parent, we used percentage for the child */
+}
+
+/* em is used for text related stuff */
+/* font size of the parent, like 1 em is the same for like font-size
+but for some, font-size of the element itself, for like width*/
+
+/* rem root em, works with the font size of the root element */
+
+/* viewport height and width: 1vh 1vw is 1 percent of the total 1& viewport width and height*/

@@ -1,0 +1,48 @@
+/* 4 types, static, relative, absolute, fixed */
+#box1,#box2,#box3,#box4,#box5,#box6,#box7 {
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display:inline-block;
+}
+
+#box1 {
+    position:absolute;
+    top:0px;
+    width:100vw;
+    left:0px;
+    /* static by default */
+    /* for static, properties have no effect, left, top, right, bottom, and z-index */
+    /* relative, element is relative to itself, and has properties */
+    /* absoulte, relative to its closest positioned(non-static) ancestor (removed from flow) */
+    /* fixed - from browser (removed from flow) */
+    /* sticky,positioned on the user's scroll position*/
+}
+#box2 {
+    position:relative;
+    /* top:50px; */
+    left:10px;
+    bottom:10px;
+   
+}
+
+#box3 {
+    position:sticky;
+    top:0px;
+    left:30px; 
+    /* goes between fixed and relative */
+}
+
+#box4 {
+    position:fixed;
+    left:0px;
+    bottom:200px;
+    width:100vw;
+}
+#box5 {
+    position:absolute;
+    z-index:-1;
+    /* whichever div is created first, is under, or else can choose z-index */
+    /* more the z-index, more the over it becomes, can be negative, positive, or zero */
+}

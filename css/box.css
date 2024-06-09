@@ -1,0 +1,25 @@
+h1 {
+    background-color:blue;
+    padding:30px;
+    border-width:10px;
+    border-color:black;
+    border-style: dotted; 
+        /* can have solid, dotted, dashed */
+
+    margin:3px;
+    width:250px;
+    text-align: center;
+    /* now center of the box not the whole thing */
+/* background color applies to the whole element except margin obv */
+    border-radius: 30%;
+}
+
+p {
+    border-radius:29px;
+    height:200px;
+    border: 15px dashed blue;
+    /* instead of having different stuff, all in one */
+}
+/* padding-left, padding-right, padding-bottom, padding-top, padding
+or padding: T R B L clockwise */
+/* same for margin, margin-left, margin-right, margin-bottom, margin-top */

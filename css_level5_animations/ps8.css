@@ -1,0 +1,26 @@
+@keyframes loading {
+    from {rotate:0deg;}
+    to {rotate:360deg;}
+}
+
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+#loader {
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    left:50vw;
+    /* top:50vh; */
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    /* background-color:blue; */
+    border-top:15px;
+    border-top:5px black solid;
+    animation:loading 1s infinite;
+}
+

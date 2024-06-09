@@ -1,0 +1,51 @@
+/* transitions enables us to define the transition between two states of an element */
+
+#box {
+    background-color:aquamarine;
+    border:2px solid black;
+    height:100px;
+    width:100px;
+     
+    transition-property:all;
+    /* can use stuff like font size and others */
+    transition-duration:2s;
+    /* seconds ms */
+    /* whatever you wanna change over that period of time */
+
+
+    transition-timing-function:ease-out;
+    transition-timing-function:ease-in;
+    transition-timing-function:linear;
+    transition-timing-function:steps(3);
+    transition-timing-function:linear;
+    /* ease-in, ease-out, linear, steps */
+/* ease-in: The transition starts slowly and accelerates as it progresses. It eases into the target state gradually.
+ease-out: The transition starts quickly and decelerates as it progresses. It eases out of the initial state gradually.
+ */
+    /* transition:propertyname|duration|timing-function|delay */
+
+    transition-delay:2s;
+     
+}
+
+
+
+
+
+
+/* THE BELOW ARE DIFFERENT STATES, and their transitions are mentioned above */
+/* pseudo class means defining different states*/
+
+#box:hover {
+    background-color:red;
+    color:white;
+    font-size:80px;
+    height:200px;
+    width:500px;
+}
+
+
+/* active when it is clicked and it is kept clicked*/
+#box:active {
+    background-color:pink;
+}

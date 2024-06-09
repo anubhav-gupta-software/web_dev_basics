@@ -1,0 +1,66 @@
+<!-- FORMS IN HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- just click on the text for label in radio and the radio will still check mark which was not possible without labels -->
+    <!-- for people with bad eyesight -->
+
+    <form action="/action.php">
+        <input type="text" placeholder="type something here">
+        <input type="password" placeholder="Enter your password">
+        <label for="101">
+            <input type="radio" value="class 11" name="class" id="101">Class 11
+        </label>
+        <label for="102">
+            <input type="radio" value="class 12" name="class" id="102">Class 12
+        </label>
+
+
+
+        <!-- id and class, id for single things, class for a group of things -->
+
+
+
+        <label for="103">
+            <input type="checkbox" value="math" name="subject" id="103">math
+        </label>
+        <!-- <label for="math">
+        <input type="checkbox" value="math" name="subject" id="101">math
+    </label> -->
+        <textarea name="feedback" rows="5"></textarea>
+        <hr>
+        <hr>
+        <hr>
+
+        <select name="city" id="chosenCity">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Dumka">Dumka</option>
+        </select>
+
+        <input type="submit" value="submit">
+    </form>
+    <!-- name and class are different, name is used for mapping the values in the server for forms, not for styling and stuff-->
+
+    <iframe width="1280" height="675" src="https://www.youtube.com/embed/chEgqD07xAI"
+        title="CHRIS BUMSTEAD FULL GYM TOUR" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <hr>
+
+    <video width="1280" height="675" src="myVideo.mp4"  controls loop>My Video</video> 
+    <hr>
+    <video width="1280" height="675" src="myVideo.mp4"  controls autoplay>My Video</video> 
+    <!-- can use both absoulte and relative urls not youtube because they dont use direct file, instead different player instrastructure -->
+</body>
+
+</html>

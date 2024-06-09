@@ -1,0 +1,50 @@
+/* ALWAYS USE MDN DOCUMENTATION FOR REFERENCE */
+
+
+/*ABSOLUTE UNITs IN CSS
+    96px = 1inch
+*/
+
+h1 {
+    color:white;
+    background-color:brown;
+    text-align: center;
+    /* font-weight: lighter; */
+}
+
+p {
+    color:white;
+    background-color:blue;
+    text-align: center;
+    /* can use text align left, right, center, start, end. DOES RELATIVELY TO THE PARENT BODY */
+    /* font-family: arial black, Verdana; */
+    /* if a browswer, doesn't support the main text style, it checks the second one, fallback mechanism */
+    font-family: cursive;
+    font-size:23px;
+    line-height:30px;
+    /* height between text */
+
+    text-transform: none;
+    /* uppercase, lowercase, capitalize, none */
+}
+
+#underline {
+    text-decoration:wavy underline;
+}
+
+#overline {
+    text-decoration: red wavy overline;
+    font-weight:lighter;
+}
+
+#linethrough {
+    text-decoration: blue  line-through;
+}
+a {
+    text-decoration: none;
+}
+/* font-weight has normal, bold, bolder, lighter */
+/* font-weight also has values from 100-900 */
+
+/* font-family: style of the text */
+

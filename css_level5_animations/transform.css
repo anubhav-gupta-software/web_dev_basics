@@ -1,0 +1,32 @@
+/* transo */
+#box {
+    margin-left:250px;
+    margin-top:300px;
+    height:300px;
+    width:300px;
+    background-color:pink;
+
+
+
+    /* transform:rotateZ(45deg); */
+    /* can also use rotate, rotateX, rotateY, rotateZ */
+    rotate: z 30deg;
+    /* rotates everything inside */
+
+
+    transform:scale(0.5);
+    transform:scale(1,2);
+    /* x and y axis */
+    /* transform:scaleX(3);
+    transform:scaleY(1); */
+
+
+
+
+    transform:translate(5px); 
+    /* x axis and y axis, can use translateX and translateY as well */
+
+
+    transform:skew(45deg)
+
+}
