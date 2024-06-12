@@ -22,3 +22,15 @@ const arrowMul = (a,b)=>{
     return a*b;
 }
 console.log(arrowMul(5,6));
+
+
+
+//callback functions - function that is passed as an argument to another function
+// arr.forEach(/*callback function*/);
+
+let age = [1,2,3,4,5,6,7];
+
+age.forEach((val)=>{
+    console.log(val);
+});
+
