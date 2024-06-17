@@ -3,7 +3,7 @@
 //let promise = fetch(url, [options])
 //fetch uses request and response objects
 //when given no options, get request is used...
-const URL = "https://cat-fact.herokuapp.com/factssdfdsf";
+const URL = "https://cat-fact.herokuapp.com/facts";
 
 // let promise = fetch(URL);
 // console.log(promise);
